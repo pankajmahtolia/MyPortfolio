@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Mahtolia-Portfoio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Pankaj Mahtolia</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="logo">Pankaj Mahtolia</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+            <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <!-- *******************PROFILE SECTION*************************-->
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/MyPic-Manali.png" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <div class="title" id="animatedName">Pankaj Mahtolia</div>
+          <p class="section__text__p2">Software Engineer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/PankajMahtolia_Resume.pdf')"
+            >
+              Download Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/mahtoliapankaj/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/pankajmahtolia'"
+            />
+            <img
+              src="./assets/leetcode.png"
+              alt="LeetCode Profile"
+              class="icon"
+              onclick="location.href='https://leetcode.com/_pankajMahtolia/'"
+            />
+            <img
+              src="./assets/hackerearth.png"
+              alt="HackerEarth Profile"
+              class="icon"
+              onclick="location.href='https://www.hackerearth.com/@pankajmahtolia0'"
+            />
+            <img
+              src="./assets/hackerrank.png"
+              alt="HackerRank Profile"
+              class="icon"
+              onclick="location.href='https://www.hackerrank.com/profile/pankajmahtolia0'"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- *******************ABOUT SECTION*************************-->
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-pic.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <h4>Samsung SDS</h4>
+                <p>2+ years <br />Software Engineer</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <h4>National Institue of Technology Uttarakhand</h4>
+                <p>Bachelor's Degree in Computer Science and Engineering</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                As a Software Engineer at SAMSUNG SDS, I thrive on innovation and engineering solutions that pave
+                the way for a brighter future. I work on system design (low-level and high-level), and I'm well-versed in Java, SpringBoot, Kafka, PostgreSQL, Elasticsearch, and data structures and algorithms.
+                I hold a B.Tech in Computer Science from NIT Uttarakhand, where I developed a strong foundation in software engineering and computer science. 
+                I have also demonstrated my skills and expertise in various challenges and certifications, such as ranking among the top 25 in the Masai Hack-overflow, 
+                obtaining a cybersecurity certification from Lucideus, and achieving a software PRO certification from Samsung SDS. In addition, 
+                I have mentored and guided 15+ interns at Samsung SDS, resulting in their outstanding performance and eventual placement offers. 
+                I'm passionate about learning new technologies, collaborating with diverse teams, and contributing to impactful projects. Let's connect and engineer innovation together!
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png" ̰
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+      <!-- *********************EXPERIENCE SECTION************************************ -->
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technical Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Data Structures</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Algorithms</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Low‑Level Design</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>High‑Level Design</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Design Patterns</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>         
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Paradigms</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Distributed Systems</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Web Development</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Microservices,</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Cloud Computing</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Microservices,</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Machine Learning</h3>
+                      <p>Begineer</p>
+                    </div>
+                  </article>
+              </div>
+            </div>        
+          </div>
+
+
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Tools and Frameworks</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SpringBoot</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PostgreSQL</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Apache Kafka</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MyBatis</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JUnit</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+              
+            </div>
+
+            
+            <div class="details-container">
+              <h2 class="experience-sub-title">Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>        
+          </div>
+
+
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">DevOps</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JIRA</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Confluence</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SonarQube</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Nexus/Jfrog</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Elasticsearch</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"/>
+      </section>
+
+      <!-- *****************PROJECT SECTION ****************************-->
+
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">RGB Guess Game</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/pankajmahtolia/RGB-Color-Guessing-Game'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://rgb-color-guessing-game-a3a56.firebaseapp.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Parking System LLD</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/pankajmahtolia/machine-coding-feedback/tree/pankaj-mahtolia-parking-lot-system'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/pankajmahtolia/machine-coding-feedback/tree/pankaj-mahtolia-parking-lot-system'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            </div>
+
+            <div class="about-containers">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/project-3.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Movie Recommendation System</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/pankajmahtolia/Movie-Recommendation-System'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/pankajmahtolia/Movie-Recommendation-System'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/project-4.png"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">SplitWise LLD</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/pankajmahtolia/machine-coding-feedback/tree/Split-Wise-LLD'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/pankajmahtolia/machine-coding-feedback/tree/Split-Wise-LLD'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#achievements'"/>
+      </section>
+
+
+      <!-- Achievements SECTION -->
+
+      <section id="achievements">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Achievements</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/achievement-1.png"
+                  alt="achievement 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Samsung Professional Software Examination</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1TZ42Lf3EMdhQHIVERGxmSycwko56aLpk/view?usp=sharing'"
+                >
+                  Drive
+                </button>
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/achievement-2.png"
+                  alt="achievement 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Top 25 Finisher in Coding Competition</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/19woHm2YbK2dEUZAZ0l9m3MpebkFxf-nK/view?usp=sharing'"
+                >
+                  Drive
+                </button>
+                
+              </div>
+            </div>
+            </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#certificates'"
+        />
+      </section>
+
+
+     <!-- CERTIFICATES -->
+
+
+      <section id="certificates">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Certificates</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <h3> Mastering System Design: From Low‑Level to High‑Level Solutions</h3>
+                <div class="btn-container">
+                     <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://drive.google.com/file/d/1v-GiRWcngjKxBCvVRVHsDuvVmqTUOfYs/view?usp=sharing'">
+                        Drive
+                    </button>
+                </div>
+            </div>
+        <br>
+            <div class="details-container color-container">
+                <h3>Top 25 Finisher in Coding Competition</h3>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://drive.google.com/file/d/1v-GiRWcngjKxBCvVRVHsDuvVmqTUOfYs/view?usp=sharing'">
+                        Drive
+                    </button>
+                </div>
+             </div>
+
+        <br>
+            <div class="details-container color-container">
+                <h3>Machine Learning Using Python</h3>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://drive.google.com/file/d/1U-151mjqGKiLaUFYrhAOQwJ-w5_0edaZ/view?usp=sharing'">
+                        Drive
+                    </button>
+                </div>
+            </div>
+        </div>
+          
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+      <!-- *****************CONTACT ME SECTION ****************************-->
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me @</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:pankajmahtolia0@gmail.com">Pankaj Mahtolia</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mahtoliapankaj/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Pankaj Mahtolia. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
