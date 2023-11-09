@@ -7,9 +7,33 @@
   padding: 0;
 }
 
+/* body {
+  background: linear-gradient(to bottom right, #f5f5f5, #ffffff);
+} */
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* FUTURISTIC TECH THEME */
+.futuristic-tech {
+  background: linear-gradient(135deg, #3494e6, #ec6ead, #3494e6);
+  color: white;
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -154,6 +178,18 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .section-container {
@@ -167,6 +203,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .section__pic-container {
@@ -197,6 +234,42 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#animatedName {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  animation: typing 4s steps(14) 2s infinite, blink-caret 0.5s step-end infinite;
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Keyframes for the blinking caret animation */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
 }
 
 #socials-container {
@@ -318,6 +391,7 @@ section {
 
 #experience {
   position: relative;
+  /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .experience-sub-title {
@@ -357,6 +431,7 @@ article .icon {
 
 #projects {
   position: relative;
+  /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .color-container {
@@ -387,6 +462,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .contact-info-upper-container {
