@@ -46,9 +46,37 @@
       margin-top: 0;
     }
   }
-  
+    
   @media screen and (max-width: 600px) {
-    #contact,
+    #contact {
+      height: auto; /* Set the height to auto */
+    }
+  
+    /* .contact-info-upper-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    } */
+  
+    /* .contact-info-container {
+      margin-bottom: 1rem;
+    }
+     */
+    .contact-info-upper-container {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contact-info-container {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    .contact-info-container img {
+      margin-right: 0.2rem; /* Add some space between the icon and text */
+      margin-left: 1rem;
+    }
+
     footer {
       height: 40vh;
     }
