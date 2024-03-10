@@ -22,7 +22,6 @@ body {
   z-index: -1; /* Place the particle container behind other elements */
 }
 
-
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -34,7 +33,6 @@ body {
     background-position: 0% 50%;
   }
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -183,7 +181,6 @@ section {
   transition: opacity 1s ease-in-out;
 }
 
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -204,7 +201,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .section__pic-container {
@@ -213,6 +209,7 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
 
 .section__text {
   align-self: center;
@@ -265,7 +262,8 @@ section {
 
 /* Keyframes for the blinking caret animation */
 @keyframes blink-caret {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
@@ -375,7 +373,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-} 
+}
 
 .section-container {
   gap: 4rem;
@@ -452,7 +450,6 @@ article .icon {
   height: 20px;
   margin-right: 10px;
 } */
-
 
 /* PROJECTS SECTION */
 
